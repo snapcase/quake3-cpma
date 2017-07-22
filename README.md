@@ -6,7 +6,7 @@ CPMA container based on the [jberrenberg/quake3](https://hub.docker.com/r/jberre
 Start up a data volume for configs and maps:
 
 ```bash
-docker run --entrypoint=/bin/sh -v /home/ioq3srv/ioquake3/cpma --name cpma-data quake3-cpma
+docker run --entrypoint=/bin/sh -v /home/ioq3srv/ioquake3/cpma --name cpma-data snapcase/quake3-cpma
 ```
 
 Copy your `server.cfg`, `motd.cfg` and maps to the data volume:
